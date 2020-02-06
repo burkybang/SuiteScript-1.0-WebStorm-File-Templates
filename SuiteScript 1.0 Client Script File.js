@@ -36,9 +36,10 @@ function fieldChanged(sublistId, fieldId, lineNumber) {
 /**
  * @param {string} sublistId - The internal ID of the sublist
  * @param {string} fieldId - The internal ID of the field that triggered postSourcing
+ * @param {number} [lineNumber] - The number of the line if the field is in a sublist (undocumented)
  * @returns {void}
  */
-function postSourcing(sublistId, fieldId) {
+function postSourcing(sublistId, fieldId, lineNumber) {
 
 }
 
